@@ -7,7 +7,18 @@
     }
     
     /* Push the Quick Add/Karma/Notification/Settings icons left 30px to align with tasks */
-    #top_icons { margin-right: 30px; }
+    #top_icons { margin-right: 36px; }
+    
+    /* Shift the search to better fit the resized task list */
+    #quick_find {
+        margin-left: 374px;
+        padding-right: 50px;
+    }
+    
+    /* Widen the quick find input to take advantage of the additional space */
+    #quick_find input.quick_find {
+        width: 500px;
+    }
     
     /* Widen the sidebar to take advantage of the addtional room (longer project names) */
     #left_menu {
