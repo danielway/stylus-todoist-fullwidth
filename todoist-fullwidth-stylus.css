@@ -1,0 +1,19 @@
+@-moz-document domain("todoist.com") {
+    #app_holder,
+    #top_bar_inner {
+        margin-left: 0 !important;
+        max-width: none;
+    }
+    
+    #left_menu {
+        width: 300px;
+    }
+    
+    #list_holder {
+        width: 298px;
+    }
+    
+    #content {
+        margin-left: 310px;
+    }
+}
