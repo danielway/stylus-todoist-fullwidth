@@ -12,7 +12,7 @@
     /* Shift the search to better fit the resized task list */
     #quick_find {
         margin-left: 374px;
-        padding-right: 50px;
+        padding-right: 300px;
     }
     
     /* Widen the quick find input to take advantage of the additional space */
@@ -33,5 +33,10 @@
     /* Moves the content away from the sidebar + 30px so the tasks don't press up against the sidebar */
     #content {
         margin-left: 330px;
+    }
+    
+    /* Adjust the tasks within the #content to match the normal relative positioning */
+    #editor .current_editor {
+        padding-right: 40px;
     }
     }
