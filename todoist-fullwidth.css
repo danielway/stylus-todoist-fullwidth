@@ -1,17 +1,24 @@
+/* Allow the application to expand and fill the screen */
 #app_holder,
 #top_bar_inner {
-    margin-left: 0 !important;
+    margin-left: 20px !important;
     max-width: none;
 }
 
+/* Push the Quick Add/Karma/Notification/Settings icons left 30px to align with tasks */
+#top_icons { margin-right: 30px; }
+
+/* Widen the sidebar to take advantage of the addtional room (longer project names) */
 #left_menu {
     width: 300px;
 }
 
+/* This sits inside the #left_menu and its a bit smaller so the project ellipsis and add icons don't crowd the scrollbar */
 #list_holder {
     width: 298px;
 }
 
+/* Moves the content away from the sidebar + 30px so the tasks don't press up against the sidebar */
 #content {
-    margin-left: 310px;
+    margin-left: 330px;
 }
