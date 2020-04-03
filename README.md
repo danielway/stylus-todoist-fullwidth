@@ -1,3 +1,5 @@
+**Update: This repository has been archived as the Todoist web application has become natively full-width.**
+
 # Todoist Full-Width Override
 This is a simple CSS override for Todoist.com that allows for a full-width interface. This is designed for use in [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), but includes both the Stylus export and raw CSS for use in any restyling tool.
 
